@@ -1,6 +1,6 @@
-# UnTrack
+# UnTrack CVPR 2024
 
-Official implementation of "Single-Model and Any-Modality for Video Object Tracking" ([arxiv](https://arxiv.org/abs/2311.15851))
+Official implementation of "Single-Model and Any-Modality for Video Object Tracking" CVPR 2024 ([arxiv](https://arxiv.org/abs/2311.15851))
 
 We propose Un-Track, a Unified Tracker of a single set of parameters for any modality, which learns their common latent space with only the RGB-X pairs. This unique shared representation seamlessly binds all modalities together, enabling effective unification and accommodating any missing modality, all within a single transformer-based architecture and without the need for modality-specific fine-tuning. 
 
