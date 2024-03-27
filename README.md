@@ -6,7 +6,7 @@ We propose Un-Track, a Unified Tracker of a single set of parameters for any mod
 
 # Visual Comparison
 
-We compare with [ViPT](https://github.com/jiawen-zhu/ViPT) (SOTA finetuning method) and [SeqTrack](https://github.com/microsoft/VideoX/tree/master/SeqTrack) (SOTA Tracker):
+We compare with [ViPT](https://github.com/jiawen-zhu/ViPT) (SOTA specialized method) and [SeqTrack](https://github.com/microsoft/VideoX/tree/master/SeqTrack) (SOTA Tracker):
 
 ### Depth Domain
 
