@@ -4,7 +4,7 @@ Official implementation of "Single-Model and Any-Modality for Video Object Track
 
 We propose Un-Track, a Unified Tracker of a single set of parameters for any modality, which learns their common latent space with only the RGB-X pairs. This unique shared representation seamlessly binds all modalities together, enabling effective unification and accommodating any missing modality, all within a single transformer-based architecture and without the need for modality-specific fine-tuning. 
 
-# Visual Comparison
+# Results
 
 We compare with [ViPT](https://github.com/jiawen-zhu/ViPT) (SOTA specialized method) and [SeqTrack](https://github.com/microsoft/VideoX/tree/master/SeqTrack) (SOTA Tracker):
 
@@ -15,6 +15,10 @@ We compare with [ViPT](https://github.com/jiawen-zhu/ViPT) (SOTA specialized met
 ### Thermal Domain
 
 ![thermal](https://github.com/Zongwei97/UnTrack/assets/56023848/30c49f81-54c3-455e-8b29-de3b3cbe412e)
+
+Thermal Specialized (trained on RGB-T) [[Google Drive](https://drive.google.com/file/d/14l1gnVGuh-vV1uVYrw4cNTKeoSOkJE0_/view?usp=sharing)]
+
+Unified Results (trained on with RGB-D & RGB-T & RGB-E) [[Google Drive](https://drive.google.com/file/d/1sXfvwM9MaeXTjkmzrHfohogQT0EsQIf3/view?usp=sharing)]
 
 ### Event Domain
 
