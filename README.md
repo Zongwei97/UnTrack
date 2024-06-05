@@ -23,7 +23,7 @@ The difference is that we manually force the network to pick the best expert, ac
 
 We have also developed a generalist and blind tracker, where the MoE is formally introduced and assigns automatically the most appropriate expert for feature processing. 
 
-More details can be found in the [[preprint](https://arxiv.org/pdf/2405.17773)] or [[GitHub](https://github.com/supertyd/XTrack)]
+More details can be found in the [[Preprint](https://arxiv.org/pdf/2405.17773)] or [[GitHub](https://github.com/supertyd/XTrack)]
 
 # Acknowledgments
 This repository is heavily based on [ViPT](https://github.com/jiawen-zhu/ViPT) and [OSTrack](https://github.com/botaoye/OSTrack). Thanks to their great work!
