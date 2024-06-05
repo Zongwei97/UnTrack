@@ -8,22 +8,22 @@ We propose Un-Track, a Unified Tracker of a single set of parameters for any mod
 
 We compare with [ViPT](https://github.com/jiawen-zhu/ViPT) (SOTA specialized method) and [SeqTrack](https://github.com/microsoft/VideoX/tree/master/SeqTrack) (SOTA Tracker):
 
-### Depth Domain
 
-![depth](https://github.com/Zongwei97/UnTrack/assets/56023848/6a6404a3-04dd-42e4-bab4-597b80dbbb28)
+## Full Youtube Video
 
-### Thermal Domain
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MNvKQCeMLxg/0.jpg)](https://www.youtube.com/watch?v=MNvKQCeMLxg)
 
-![thermal](https://github.com/Zongwei97/UnTrack/assets/56023848/30c49f81-54c3-455e-8b29-de3b3cbe412e)
 
-Thermal Specialized (trained on RGB-T) [[Google Drive](https://drive.google.com/file/d/14l1gnVGuh-vV1uVYrw4cNTKeoSOkJE0_/view?usp=sharing)]
 
-Unified Results (trained on with RGB-D & RGB-T & RGB-E) [[Google Drive](https://drive.google.com/file/d/1sXfvwM9MaeXTjkmzrHfohogQT0EsQIf3/view?usp=sharing)]
+## Notes
 
-### Event Domain
+Our shared embedding is somehow similar to a Mixture of Experts (MoE) model. 
 
-![event](https://github.com/Zongwei97/UnTrack/assets/56023848/4b5ba910-d3d8-45e5-9404-96726e416ea0)
+The difference is that we manually force the network to pick the best expert, according to the sensor prior, for feature processing. 
 
+We have also developed a generalist and blind tracker, where the MoE is formally introduced and assigns automatically the most appropriate expert for feature processing. 
+
+More details can be found in the [[preprint](https://arxiv.org/pdf/2405.17773)] or [[GitHub](https://github.com/supertyd/XTrack)]
 
 # Acknowledgments
 This repository is heavily based on [ViPT](https://github.com/jiawen-zhu/ViPT) and [OSTrack](https://github.com/botaoye/OSTrack). Thanks to their great work!
