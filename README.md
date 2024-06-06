@@ -21,7 +21,7 @@ Our shared embedding is somehow similar to a Mixture of Experts (MoE) model.
 
 The difference is that we manually force the network to pick the best expert, according to the sensor prior, for feature processing. 
 
-We have also developed a generalist and blind tracker, where the MoE is formally introduced and assigns automatically the most appropriate expert for feature processing. 
+We have also developed a generalist and blind tracker, where the MoE is formally introduced and dynamically assigns the most appropriate expert for feature processing. 
 
 More details can be found in the [[Preprint](https://arxiv.org/pdf/2405.17773)] or [[GitHub](https://github.com/supertyd/XTrack)]
 
