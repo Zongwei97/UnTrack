@@ -21,9 +21,7 @@ def parameters(yaml_name: str, epoch=None):
     params.search_size = cfg.TEST.SEARCH_SIZE
 
     # Network checkpoint path
-    # params.checkpoint = os.path.join(save_dir, "checkpoints/train/vipt/%s/ViPTrack_ep%04d.pth.tar" % (yaml_name, cfg.TEST.EPOCH))
-    #params.checkpoint = os.path.join(prj_dir, "./models/ViPT_%s.pth.tar"%yaml_name)
-    params.checkpoint = os.path.join(prj_dir, "./models/ViPT_rgbd.pth.tar")
+    params.checkpoint = os.path.join(prj_dir, "./models/UnTrack.pth.tar")
 
     # whether to save boxes from all queries
     params.save_all_boxes = False

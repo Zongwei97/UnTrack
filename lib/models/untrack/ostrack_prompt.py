@@ -1,5 +1,5 @@
 """
-Basic ViPT model.
+Basic UnTrack model.
 """
 import math
 import os
@@ -15,7 +15,7 @@ from lib.utils.box_ops import box_xyxy_to_cxcywh
 
 
 class UnTrack(nn.Module):
-    """ This is the base class for ViPTrack """
+    """ This is the base class for UnTrack """
 
     def __init__(self, transformer, box_head, aux_loss=False, head_type="CORNER"):
         """ Initializes the model.

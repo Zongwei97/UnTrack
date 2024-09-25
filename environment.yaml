@@ -1,4 +1,4 @@
-name: vipt
+name: untrack
 channels:
   - pytorch
   - nvidia
@@ -170,4 +170,4 @@ dependencies:
       - websocket-client==1.6.1
       - werkzeug==2.2.3
       - zipp==3.15.0
-prefix: /home/zwu/anaconda3/envs/vipt
+prefix: /home/zwu/anaconda3/envs/untrack

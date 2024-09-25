@@ -2,7 +2,7 @@ from easydict import EasyDict as edict
 import yaml
 
 """
-Add default config for ViPT.
+Add default config for UnTrack.
 """
 cfg = edict()
 
@@ -36,7 +36,7 @@ cfg.MODEL.HEAD.NUM_CHANNELS = 256
 # TRAIN
 cfg.TRAIN = edict()
 cfg.TRAIN.PROMPT = edict()
-cfg.TRAIN.PROMPT.TYPE = 'deep'  # vipt_deep vipt_shaw
+cfg.TRAIN.PROMPT.TYPE = 'deep'
 cfg.TRAIN.LR = 0.0001
 cfg.TRAIN.WEIGHT_DECAY = 0.0001
 cfg.TRAIN.EPOCH = 500
