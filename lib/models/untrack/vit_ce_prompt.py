@@ -520,7 +520,7 @@ class VisionTransformerCE(VisionTransformer):
         x = self.patch_embed(x)  # 32, 256, 768
 
         z_rgb_4edge, max_rgb_z_edge = gradient(z_dte)
-        x_rgb_4edge, max_rgb_x_edge = gradient(z_dte)
+        x_rgb_4edge, max_rgb_x_edge = gradient(x_dte)
 
         z_4edge, max_z_edge = gradient(z_dte)
         x_4edge, max_x_edge = gradient(x_dte)
